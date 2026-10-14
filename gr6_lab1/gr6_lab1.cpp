@@ -6,8 +6,61 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
-    cout << "Hello World!\n";
+    cout << "     X            XXXX \n";
+    cout << "    X X          X     \n";
+    cout << "   x   X          XXX     \n";
+    cout << "  XXXXXXX             X     \n";
+    cout << " X       X      X     X     \n";
+    cout << "X         X      XXXXX     \n \n \n \n \n";
+
+    cout << "            *              \n";
+    cout << "           * *             \n";
+    cout << "          *   *            \n";
+    cout << "         *     *           \n";
+    cout << "   ******       ******     \n";
+	cout << "    *               *      \n";
+    cout << "     *             *       \n";
+    cout << "      *           *        \n";
+    cout << "     *      *      *       \n";
+    cout << "    *     *   *     *      \n";
+    cout << "   *    *       *    *     \n";
+    cout << "    *               *      \n \n \n \n";
+
+
+	cout << " +==============================+ \n";
+    cout << " | nr |   Imie   |   Nazwisko   | \n";
+	cout << " |______________________________| \n";
+    cout << " |123 |   Jan    |   Kowalski   | \n";
+    cout << " |______________________________| \n";
+    cout << " |321 |  Igor    |   Kowalski   | \n";
+	cout << " |______________________________| \n";
+	cout << " |213 |  Janek   |   Kowalski   | \n";
+	cout << " |______________________________| \n \n \n \n";
+
+    int a;
+    cout << "Wpisz liczbe: "; 
+    cin >> a; 
+
+    int b;
+	cout << "Wpisz liczbe: ";
+    cin >> b; 
+	int c;
+	cout << (a + b) << endl;
+	cout << (a * b) << endl;
+    
+    float x;
+    cout << "Wpisz liczbe: ";
+    cin >> x;
+
+    float y;
+	cout << "Wpisz liczbe: ";
+	cin >> y;
+
+    float z;
+	cout << (x + y) << endl;
+	cout << (x * y) << endl;
+
+    /* */
 }
 // lubie wcinac dobre jedzenie
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
