@@ -60,8 +60,18 @@ int main()
 	cout << (x + y) << endl;
 	cout << (x * y) << endl;
 
-    /* */
+    int farenhajt();
+    {
+        double f = 20.0;
+        double c;
+        c = 5.0 * (f - 32.0) / 9.0;
+        cout << f << " stopni Fahrenheita to " << c << " stopni Celsjusza";
+        //spodziewany wynik dla f = 20 to c okolo -6.66667
+        return 0;
+    }
 }
+
+
 // lubie wcinac dobre jedzenie
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
